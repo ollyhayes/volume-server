@@ -3,7 +3,8 @@
 ## Installation
 
 * Ensure [nodejs & npm](https://nodejs.org/en/) is installed
-* Clone repository: `git clone http://github.com/ollyhayes/volume-server`
+* Clone repository: `git clone https://github.com/ollyhayes/volume-server`
+* Enter repository: `cd volume-server`
 * Install dependencies: `npm install`
 * Start server: `npm run start`
 
