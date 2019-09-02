@@ -6,7 +6,7 @@ function handleVolumeRequest(sign) {
 	return (req, res) => {
 		const result = spawnSync('amixer', ['set', 'Master', `2%${sign}`], {encoding: 'utf8'});
 		const volumeResult = findVolume.exec(result.stdout);
-		res.status(200).end(volumeResult[1]);
+		res.send(volumeResult[1]);
 	};
 }
 
